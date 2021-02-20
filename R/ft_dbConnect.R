@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' \dontrun{
-#'   enft <- ft_dbConnect()
+#'   conn <- ft_dbConnect()
 #' }
 ft_dbConnect <- function(){
   Dmisc::dbConnect(db_name = 'enft')
