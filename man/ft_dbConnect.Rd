@@ -16,6 +16,6 @@ Vea \code{Dmisc::\link[Dmisc:dbConnect]{dbConnect}}
 }
 \examples{
 \dontrun{
-  enft <- ft_dbConnect()
+  conn <- ft_dbConnect()
 }
 }

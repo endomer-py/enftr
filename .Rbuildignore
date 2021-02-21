@@ -8,3 +8,6 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^CODE_OF_CONDUCT\.md$
+^contributors\.csv$
+^contributors\.R$

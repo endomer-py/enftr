@@ -23,7 +23,7 @@
 #'   str(ft_setLabels(enft))
 #'}
 ft_setLabels <- function(tbl, vars = NULL) {
-  endomer::setLabels(tbl, vars, dict)
+  endomer::setLabels(tbl, vars, enftr::dict)
 }
 
 
@@ -50,6 +50,6 @@ ft_setLabels <- function(tbl, vars = NULL) {
 #'   ft_useLabels(enft)
 #'}
 ft_useLabels <- function(tbl, vars = NULL) {
-  endomer::useLabels(tbl, vars, dict)
+  endomer::useLabels(tbl, vars, enftr::dict)
 }
 
