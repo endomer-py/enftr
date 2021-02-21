@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![R build status](https://github.com/endomer/enftr/workflows/R-CMD-check/badge.svg)](https://github.com/endomer/enftr/actions)
-[![Codecov test coverage](https://codecov.io/gh/drdsdaniel/enftr/branch/main/graph/badge.svg)](https://codecov.io/gh/drdsdaniel/enftr?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/endomer/enftr/branch/main/graph/badge.svg)](https://codecov.io/gh/endomer/enftr?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/enftr)](https://CRAN.R-project.org/package=enftr)
 <!-- badges: end -->
 

@@ -13,7 +13,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![R build
 status](https://github.com/endomer/enftr/workflows/R-CMD-check/badge.svg)](https://github.com/endomer/enftr/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/drdsdaniel/enftr/branch/main/graph/badge.svg)](https://codecov.io/gh/drdsdaniel/enftr?branch=main)
+coverage](https://codecov.io/gh/endomer/enftr/branch/main/graph/badge.svg)](https://codecov.io/gh/endomer/enftr?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/enftr)](https://CRAN.R-project.org/package=enftr)
 <!-- badges: end -->
