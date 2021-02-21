@@ -55,6 +55,8 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+      - name: Install sodium
+        run: sudo apt-get install libsodium libsodium-dev
 
       - name: Install system dependencies
         if: runner.os == 'Linux'
