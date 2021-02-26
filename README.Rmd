@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+source("contributors.R")
 ```
 
 # enftr <img src='man/figures/logo.png' align="right" height="138" />
@@ -59,9 +60,9 @@ rm(dict, dict0, dict1)
 
 2. Agregar una función para calcular la pobreza monetaria.
 2. Agregar una función para el cálculo del ICV.
-2. Escribir la guía de inicio rápido
+2. Escribir la guía de inicio rápido.
 2. Agregar validadores a las funciones para garantizar que las variables son del tipo y con el contenido esperado en los cálculos.
-2. Escribir tests
+2. Escribir tests.
 2. Hacer que todas las funciones trabajen con conexiones a base de datos (Las que usan cut3 específicamente).
 
 

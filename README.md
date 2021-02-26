@@ -83,10 +83,10 @@ background-color: #d9534f;  width: 3.9%;">
 
 2.  Agregar una función para calcular la pobreza monetaria.
 3.  Agregar una función para el cálculo del ICV.
-4.  Escribir la guía de inicio rápido
+4.  Escribir la guía de inicio rápido.
 5.  Agregar validadores a las funciones para garantizar que las
     variables son del tipo y con el contenido esperado en los cálculos.
-6.  Escribir tests
+6.  Escribir tests.
 7.  Hacer que todas las funciones trabajen con conexiones a base de
     datos (Las que usan cut3 específicamente).
 

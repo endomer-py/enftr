@@ -4,5 +4,5 @@
 #'
 #' @format [list]
 #'
-#' @source \url{https://github.com/endomer/enftr/tree/master/Files/Cuestionarios/}
+#' @source \url{https://github.com/endomer/enftr/tree/main/Files/Cuestionarios/}
 "dict"
