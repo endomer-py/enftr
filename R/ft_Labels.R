@@ -20,10 +20,18 @@
 #' \dontrun{
 #'   enft <- data.frame(S2_P8 = c(1, 2))
 #'   str(enft)
-#'   str(ft_setLabels(enft))
+#'   str(ft_set_labels(enft))
 #'}
+ft_set_labels <- function(tbl, vars = NULL) {
+  labeler::set_labels(tbl, vars, enftr::dict)
+}
+
+
+#' @rdname ft_set_labels
+#' @export
 ft_setLabels <- function(tbl, vars = NULL) {
-  endomer::setLabels(tbl, vars, enftr::dict)
+  lifecycle::deprecate_warn('0.1.0', 'ft_setLabels()', 'ft_set_labels()')
+  ft_set_labels(tbl, vars)
 }
 
 
@@ -47,9 +55,16 @@ ft_setLabels <- function(tbl, vars = NULL) {
 #' \dontrun{
 #'   enft <- data.frame(S2_P8 = c(1, 2))
 #'   enft
-#'   ft_useLabels(enft)
+#'   ft_use_labels(enft)
 #'}
-ft_useLabels <- function(tbl, vars = NULL) {
-  endomer::useLabels(tbl, vars, enftr::dict)
+ft_use_labels <- function(tbl, vars = NULL) {
+  labeler::use_labels(tbl, vars, enftr::dict)
 }
 
+
+#' @rdname ft_use_labels
+#' @export
+ft_useLabels <- function(tbl, vars = NULL) {
+  lifecycle::deprecate_warn('0.1.0', 'ft_useLabels()', 'ft_use_labels()')
+  ft_use_labels(tbl, vars)
+}

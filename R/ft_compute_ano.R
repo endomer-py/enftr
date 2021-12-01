@@ -13,8 +13,8 @@
 #'
 #' @examples
 #'   (enft <- data.frame(EFT_PERIODO = "1/2016"))
-#'   ft_compute_ano(enft)
-ft_compute_ano <- function(tbl){
+#'   ft_ano(enft)
+ft_ano <- function(tbl){
   EFT_PERIODO <- NULL
   if(ft_version(tbl) == 2){
     tbl %>% 
@@ -22,4 +22,12 @@ ft_compute_ano <- function(tbl){
         ano = stringr::str_sub(EFT_PERIODO, 3, 6)
       )
   }
+}
+
+
+#' @rdname ft_ano
+#' @export
+ft_compute_ano <- function(tbl){
+  lifecycle::deprecate_warn('0.1.0', 'ft_compute_ano()', 'ft_ano()')
+  ft_ano(tbl)
 }

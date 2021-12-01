@@ -16,8 +16,8 @@
 #'
 #' @examples
 #'   (enft <- data.frame(EFT_PERIODO = rep("1/2016", 5), S1_P4 = sample(c(0, 1), 5, replace = TRUE)))
-#'   ft_compute_zona(enft)
-ft_compute_zona <- function(tbl){
+#'   ft_zona(enft)
+ft_zona <- function(tbl){
   S1_P4 <- NULL
   if(ft_version(tbl) == 1){
   tbl %>% 
@@ -27,4 +27,12 @@ ft_compute_zona <- function(tbl){
   } else {
     message("Utilice la variable 'EFT_ZONA'")
   }
+}
+
+
+#' @rdname ft_zona
+#' @export
+ft_compute_zona <- function(tbl){
+  lifecycle::deprecate_warn('0.1.0', 'ft_compute_zona()', 'ft_zona()')
+  ft_zona(tbl)
 }
