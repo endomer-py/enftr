@@ -29,8 +29,11 @@ de la República Dominicana.
 enftr aun no está en CRAN.
 
 <!-- You can install the released version of encftr from [CRAN](https://CRAN.R-project.org) with: -->
+
 <!-- ``` r -->
+
 <!-- install.packages("encftr") -->
+
 <!-- ``` -->
 
 Pero puedes intalar la versión de desarrollo desde
@@ -50,43 +53,38 @@ remotes::install_github("endomer/enftr")
 
 1.  Completar el diccionario.
 
-<!--html_preserve-->
-
 <div style="display:inline-block;
-             vertical-align:baseline;
-             width:100%;
-             height:20px;
-             margin-bottom:20px;
-             overflow:hidden;
-             background-color:#f5f5f5;
-             border-radius:4px;
-             -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);
-             box-shadow:inset 0 1px 2px rgba(0,0,0,.1);">
+                 vertical-align:baseline;
+                 width:100%;
+                 height:20px;
+                 margin-bottom:20px;
+                 overflow:hidden;
+                 background-color:#f5f5f5;
+                 border-radius:4px;
+                 -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);
+                 box-shadow:inset 0 1px 2px rgba(0,0,0,.1);">
 
-<div style="float: left;
-height: 100%;
-font-size: 16px;
-line-height: 20px;
-color: #fff;
-text-align: center;
-box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
-transition: width .6s ease;
-background-color: #d9534f;  width: 3.9%;">
+    <div style="float: left;
+    height: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+    transition: width .6s ease;
+    background-color: #d9534f;  width: 10.8%;">
 
-3.9%
+      10.8%
 
-</div>
-
-</div>
-
-<!--/html_preserve-->
+    </div>
+      </div>
 
 2.  Agregar una función para calcular la pobreza monetaria.
 3.  Agregar una función para el cálculo del ICV.
-4.  Escribir la guía de inicio rápido
+4.  Escribir la guía de inicio rápido.
 5.  Agregar validadores a las funciones para garantizar que las
     variables son del tipo y con el contenido esperado en los cálculos.
-6.  Escribir tests
+6.  Escribir tests.
 7.  Hacer que todas las funciones trabajen con conexiones a base de
     datos (Las que usan cut3 específicamente).
 
@@ -94,7 +92,7 @@ background-color: #d9534f;  width: 3.9%;">
 
 Tienes comentarios o quieres contribuir?
 
-Por favor, revisa las [gias de contribución (en
+Por favor, revisa las [guias de contribución (en
 inglés)](https://endomer.github.io/enftr/CONTRIBUTING.html) antes de
 iniciar un issue o pull request.
 
@@ -103,7 +101,7 @@ contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.h
 Contribuyendo con el proyecto aceptas las términos y condiciones.
 
 <hr/>
-<!--html_preserve-->
+
 
 <a href="./articles/enftr.html"><button type="button"
 style = "
@@ -120,5 +118,5 @@ style = "
     font-weight: 900;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;"> Guía de inicio
-rápido</button></a><!--/html_preserve-->
+    vertical-align: middle;">
+    Guía de inicio rápido</button></a>

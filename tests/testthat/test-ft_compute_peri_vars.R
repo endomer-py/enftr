@@ -1,0 +1,10 @@
+test_that("multiplication works", {
+  local_edition(3)
+  enft <- data.frame(EFT_PERIODO = c("1/2016", "2/2016"))
+  expect_snapshot(ft_peri_vars(enft))
+  expect_snapshot(ft_peri_vars(enft, rm = TRUE))
+  expect_snapshot(ft_peri_vars(enft, ano = FALSE, semestre=FALSE))
+  expect_snapshot(ft_compute_peri_vars(enft))
+  expect_snapshot(ft_compute_ano(enft))
+  expect_snapshot(ft_ano(enft))
+})

@@ -1,0 +1,40 @@
+reference:
+- title: Etiquetas de datos
+  desc: Funciones útiles para utilizar etiquetas con los datos de la encuesta
+  contents:
+    - dict
+    - ft_browse_dict
+    - ft_set_labels
+    - ft_use_labels
+
+- title: Utilería
+  desc: Funciones que hacen cálculos útiles para el procesamiento de la base de datos de la encuesta
+  contents:
+    - ft_peri_vars
+    - ft_db_connect
+    - ft_version
+
+- title: Demográficas
+  desc: Funciones útiles para el procesamiento de datos demográficos
+  contents:
+    - ft_zona
+
+- title: Mercado Laboral
+  desc: Funciones útiles para el procesamiento de indicadores de mercado laboral en la encuesta
+  contents:
+    - ft_pet
+    - ft_ocupado
+    - ft_desempleo_abierto
+    - ft_desempleo_cesante_abierto
+    - ft_desempleo_nuevo_abierto
+    - ft_pea_abierta
+    - ft_desempleo_ampliado
+    - ft_desempleo_cesante_ampliado
+    - ft_desempleo_nuevo_ampliado
+    - ft_pea_ampliada
+    - ft_poblacion_inactiva
+    - ft_sector_ocupacion
+    - ft_grupo_ocupacion
+    - ft_perceptores_ingresos
+    - ft_horas_semanal
+    - ft_ingreso_laboral_mensual

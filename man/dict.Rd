@@ -3,12 +3,13 @@
 \docType{data}
 \name{dict}
 \alias{dict}
-\title{Diccionario para los datos de la ENFT}
+\title{Diccionario para los datos de la ENFT
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \format{
 \link{list}
 }
 \source{
-\url{https://github.com/endomer/enftr/tree/master/Files/Cuestionarios/}
+\url{https://github.com/endomer/enftr/tree/main/Files/Cuestionarios/}
 }
 \usage{
 dict
