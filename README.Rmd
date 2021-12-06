@@ -54,7 +54,7 @@ remotes::install_github("endomer/enftr")
 
 ```{r echo=FALSE, message=FALSE}
 source("data-raw/dict.R")
-Dmisc::progress_bar(length(dict), 354+length(dict1))
+Dmisc::progress_bar(length(dict), 357+length(dict1))
 rm(dict, dict0, dict1)
 ```
 

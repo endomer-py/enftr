@@ -5,9 +5,14 @@
 \alias{ft_dbConnect}
 \title{Conexión a base de datos}
 \usage{
-ft_db_connect()
+ft_db_connect(db_name = "enft", ...)
 
 ft_dbConnect()
+}
+\arguments{
+\item{db_name}{Nombre de la base de datos}
+
+\item{...}{Others arguments to pass to \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}}
 }
 \value{
 Conexión a base de datos.
