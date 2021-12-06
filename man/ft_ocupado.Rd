@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_ocupado}
 \alias{ft_ocupado}
-\title{Población ocupada}
+\title{Población ocupada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_ocupado(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{ocupado} agregada.
 }
 \description{
 Población ocupada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

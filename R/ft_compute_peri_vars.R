@@ -1,5 +1,4 @@
-#' Divide la variable EFT_PERIODO en varias
-#'
+#' Divide la variable EFT_PERIODO en varias variables útiles
 #' `r lifecycle::badge("stable")`
 #'
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos

@@ -1,4 +1,5 @@
 #' Población en edad de trabajar (PET)
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -24,6 +25,7 @@ ft_pet <- function(tbl, min_edad = 15) {
 
 
 #' Población ocupada
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -58,6 +60,7 @@ ft_ocupado <- function(tbl, min_edad = 15) {
 
 
 #' Población en condición de desempleo abierto
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -84,6 +87,7 @@ ft_desempleo_abierto <- function(tbl, min_edad = 15) {
 
 
 #' Población censante en condición de desempleo abierto
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -109,6 +113,7 @@ ft_desempleo_cesante_abierto <- function(tbl, min_edad = 15) {
 
 
 #' Población nueva en condición de desempleo abierto
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -134,6 +139,7 @@ ft_desempleo_nuevo_abierto <- function(tbl, min_edad = 15) {
 
 
 #' Población Económicamente Activa (PEA) abierta
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -161,6 +167,7 @@ ft_pea_abierta <- function(tbl, min_edad = 15) {
 
 
 #' Población en condición de desempleo ampliado
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -190,6 +197,7 @@ ft_desempleo_ampliado <- function(tbl, min_edad = 15) {
 
 
 #' Población censante en condición de desempleo ampliado
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -215,6 +223,7 @@ ft_desempleo_cesante_ampliado <- function(tbl, min_edad = 15) {
 
 
 #' Población nueva en condición de desempleo ampliado
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -240,6 +249,7 @@ ft_desempleo_nuevo_ampliado <- function(tbl, min_edad = 15) {
 
 
 #' Población Económicamente Activa (PEA) ampliada
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -267,6 +277,7 @@ ft_pea_ampliada <- function(tbl, min_edad = 15) {
 
 
 #' Población inactiva (No PEA)
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -292,6 +303,7 @@ ft_poblacion_inactiva <- function(tbl, min_edad = 15) {
 
 
 #' Sector de ocupación
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -325,6 +337,7 @@ ft_sector_ocupacion <- function(tbl, min_edad = 15) {
 
 
 #' Grupo de ocupación
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -359,6 +372,7 @@ ft_grupo_ocupacion <- function(tbl, min_edad = 15) {
 
 
 #' Perceptores de ingresos
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -384,6 +398,7 @@ ft_perceptores_ingresos <- function(tbl, min_edad = 15) {
 
 
 #' Horas trabajadas a la semana
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar
@@ -408,6 +423,7 @@ ft_horas_semanal <- function(tbl, min_edad = 15) {
 
 
 #' Ingreso laboral mensual
+#' `r lifecycle::badge('stable')`
 #'
 #' @param tbl [data.frame] Data.frame con los datos de la encuesta
 #' @param min_edad [integer] Edad mínima para considerar una persona en edad de trabajar

@@ -1,8 +1,6 @@
 #' Conexión a base de datos
-#'
-#'   `r lifecycle::badge("experimental")`
-#'   
-#'   Vea \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}
+#' `r lifecycle::badge("experimental")`
+#' Vea \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}
 #'
 #' @param db_name Nombre de la base de datos
 #' @param ... Others arguments to pass to \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}

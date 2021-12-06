@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_sector_ocupacion}
 \alias{ft_sector_ocupacion}
-\title{Sector de ocupación}
+\title{Sector de ocupación
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_sector_ocupacion(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{sector_ocupacion} agregada.
 }
 \description{
 Sector de ocupación
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

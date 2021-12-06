@@ -2,6 +2,7 @@
 
 export("%>%")
 export(ft_ano)
+export(ft_browse_dict)
 export(ft_compute_ano)
 export(ft_compute_peri_vars)
 export(ft_compute_zona)

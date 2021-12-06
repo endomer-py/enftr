@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_ingreso_laboral_mensual}
 \alias{ft_ingreso_laboral_mensual}
-\title{Ingreso laboral mensual}
+\title{Ingreso laboral mensual
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_ingreso_laboral_mensual(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{ingreso_laboral_mensual} agregada.
 }
 \description{
 Ingreso laboral mensual
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

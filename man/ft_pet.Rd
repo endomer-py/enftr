@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_pet}
 \alias{ft_pet}
-\title{Población en edad de trabajar (PET)}
+\title{Población en edad de trabajar (PET)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_pet(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{pet} agregada.
 }
 \description{
 Población en edad de trabajar (PET)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

@@ -3,7 +3,9 @@
 \name{ft_set_labels}
 \alias{ft_set_labels}
 \alias{ft_setLabels}
-\title{Asigna etiquetas de datos a las variables especificadas}
+\title{Asigna etiquetas de datos a las variables especificadas
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+Vea \code{labeler::\link[labeler:set_labels]{set_labels}}}
 \usage{
 ft_set_labels(tbl, vars = NULL)
 
@@ -18,7 +20,9 @@ ft_setLabels(tbl, vars = NULL)
 Los datos introducidos en el argumento \code{tbl} pero con etiquetas de datos
 }
 \description{
+Asigna etiquetas de datos a las variables especificadas
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+Vea \code{labeler::\link[labeler:set_labels]{set_labels}}
 }
 \details{
 Esta función permite asignar etiquetas de datos a las variables de un data.frame

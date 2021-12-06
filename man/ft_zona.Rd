@@ -3,7 +3,8 @@
 \name{ft_zona}
 \alias{ft_zona}
 \alias{ft_compute_zona}
-\title{Zona de residencia}
+\title{Zona de residencia
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_zona(tbl)
 
@@ -17,9 +18,6 @@ Los datos suministrados en el input \code{tbl} con la variable \code{ano}
 adicionada.
 }
 \description{
-\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
-}
-\details{
 La base de datos de ne ENFT en su primera versión imputaba las zonas de
 residencia con los valores de 0 y 1, para compatibilidad con la segunda
 versión y la encuesta continua (ENCFT) se crea una variable zona que imputa

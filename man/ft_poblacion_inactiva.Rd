@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_poblacion_inactiva}
 \alias{ft_poblacion_inactiva}
-\title{Población inactiva (No PEA)}
+\title{Población inactiva (No PEA)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_poblacion_inactiva(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{poblacion_inactiva} agregada.
 }
 \description{
 Población inactiva (No PEA)
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

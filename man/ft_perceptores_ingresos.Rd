@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_perceptores_ingresos}
 \alias{ft_perceptores_ingresos}
-\title{Perceptores de ingresos}
+\title{Perceptores de ingresos
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_perceptores_ingresos(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{perceptores_ingresos} agregada.
 }
 \description{
 Perceptores de ingresos
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

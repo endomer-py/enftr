@@ -1,6 +1,6 @@
 #' Asigna etiquetas de datos a las variables especificadas
-#'
 #' `r lifecycle::badge("experimental")`
+#' Vea \code{labeler::\link[labeler:set_labels]{set_labels}}
 #'
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos
 #' @param vars [character]: Si especificado, solo se asignaran las etiquetas a esas variables.
@@ -37,7 +37,6 @@ ft_setLabels <- function(tbl, vars = NULL) {
 
 
 #' Utiliza las etiquetas de datos de una variable
-#'
 #' `r lifecycle::badge("experimental")`
 #'
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos

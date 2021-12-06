@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_grupo_ocupacion}
 \alias{ft_grupo_ocupacion}
-\title{Grupo de ocupación}
+\title{Grupo de ocupación
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_grupo_ocupacion(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{grupo_ocupacion} agregada.
 }
 \description{
 Grupo de ocupación
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_pea_ampliada}
 \alias{ft_pea_ampliada}
-\title{Población Económicamente Activa (PEA) ampliada}
+\title{Población Económicamente Activa (PEA) ampliada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_pea_ampliada(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{pea_ampliada} agregada.
 }
 \description{
 Población Económicamente Activa (PEA) ampliada
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

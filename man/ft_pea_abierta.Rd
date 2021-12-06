@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_pea_abierta}
 \alias{ft_pea_abierta}
-\title{Población Económicamente Activa (PEA) abierta}
+\title{Población Económicamente Activa (PEA) abierta
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_pea_abierta(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{pea_abierta} agregada.
 }
 \description{
 Población Económicamente Activa (PEA) abierta
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

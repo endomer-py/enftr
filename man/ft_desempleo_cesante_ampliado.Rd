@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_desempleo_cesante_ampliado}
 \alias{ft_desempleo_cesante_ampliado}
-\title{Población censante en condición de desempleo ampliado}
+\title{Población censante en condición de desempleo ampliado
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_desempleo_cesante_ampliado(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{desempleo_cesante_ampliado} agregada.
 }
 \description{
 Población censante en condición de desempleo ampliado
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

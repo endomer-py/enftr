@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_desempleo_nuevo_ampliado}
 \alias{ft_desempleo_nuevo_ampliado}
-\title{Población nueva en condición de desempleo ampliado}
+\title{Población nueva en condición de desempleo ampliado
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_desempleo_nuevo_ampliado(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{desempleo_nuevo_ampliado} agregada.
 }
 \description{
 Población nueva en condición de desempleo ampliado
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

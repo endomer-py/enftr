@@ -1,5 +1,5 @@
 #' Identifica la versión de la encuesta en uso
-#'   `r lifecycle::badge('experimental')`
+#' `r lifecycle::badge('experimental')`
 #' 
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos
 #' 

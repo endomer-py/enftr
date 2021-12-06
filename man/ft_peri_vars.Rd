@@ -5,7 +5,8 @@
 \alias{ft_compute_peri_vars}
 \alias{ft_compute_ano}
 \alias{ft_ano}
-\title{Divide la variable EFT_PERIODO en varias}
+\title{Divide la variable EFT_PERIODO en varias variables útiles
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_peri_vars(tbl, rm = FALSE, ano = TRUE, semestre = TRUE, periodo = TRUE)
 
@@ -37,6 +38,7 @@ Los datos suministrados en el input \code{tbl} con las variables \code{semestre}
 \code{ano} y \code{periodo} adicionadas.
 }
 \description{
+Divide la variable EFT_PERIODO en varias variables útiles
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \details{

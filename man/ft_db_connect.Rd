@@ -3,7 +3,9 @@
 \name{ft_db_connect}
 \alias{ft_db_connect}
 \alias{ft_dbConnect}
-\title{Conexión a base de datos}
+\title{Conexión a base de datos
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+Vea \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}}
 \usage{
 ft_db_connect(db_name = "enft", ...)
 
@@ -18,8 +20,8 @@ ft_dbConnect()
 Conexión a base de datos.
 }
 \description{
+Conexión a base de datos
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
-
 Vea \code{Dmisc::\link[Dmisc:db_connect]{db_connect}}
 }
 \examples{

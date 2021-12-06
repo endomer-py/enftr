@@ -29,8 +29,11 @@ de la República Dominicana.
 enftr aun no está en CRAN.
 
 <!-- You can install the released version of encftr from [CRAN](https://CRAN.R-project.org) with: -->
+
 <!-- ``` r -->
+
 <!-- install.packages("encftr") -->
+
 <!-- ``` -->
 
 Pero puedes intalar la versión de desarrollo desde
@@ -69,9 +72,9 @@ remotes::install_github("endomer/enftr")
     text-align: center;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
     transition: width .6s ease;
-    background-color: #d9534f;  width: 6.1%;">
+    background-color: #d9534f;  width: 10.8%;">
 
-      6.1%
+      10.8%
 
     </div>
       </div>
@@ -89,7 +92,7 @@ remotes::install_github("endomer/enftr")
 
 Tienes comentarios o quieres contribuir?
 
-Por favor, revisa las [gias de contribución (en
+Por favor, revisa las [guias de contribución (en
 inglés)](https://endomer.github.io/enftr/CONTRIBUTING.html) antes de
 iniciar un issue o pull request.
 
@@ -98,6 +101,7 @@ contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.h
 Contribuyendo con el proyecto aceptas las términos y condiciones.
 
 <hr/>
+
 
 <a href="./articles/enftr.html"><button type="button"
 style = "

@@ -2,7 +2,8 @@
 % Please edit documentation in R/mercado-laboral.R
 \name{ft_horas_semanal}
 \alias{ft_horas_semanal}
-\title{Horas trabajadas a la semana}
+\title{Horas trabajadas a la semana
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}}
 \usage{
 ft_horas_semanal(tbl, min_edad = 15)
 }
@@ -17,6 +18,7 @@ variable \code{horas_semanal} agregada.
 }
 \description{
 Horas trabajadas a la semana
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}}
 }
 \examples{
 \dontrun{

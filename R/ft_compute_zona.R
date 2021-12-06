@@ -1,5 +1,4 @@
 #' Zona de residencia
-#'
 #' `r lifecycle::badge("stable")`
 #' 
 #'  La base de datos de ne ENFT en su primera versión imputaba las zonas de 

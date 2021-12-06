@@ -3,7 +3,8 @@
 \name{ft_use_labels}
 \alias{ft_use_labels}
 \alias{ft_useLabels}
-\title{Utiliza las etiquetas de datos de una variable}
+\title{Utiliza las etiquetas de datos de una variable
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 ft_use_labels(tbl, vars = NULL)
 
@@ -19,6 +20,7 @@ Los datos suministrados en el argumento \code{tbl}, pero en lugar de
 valores utilizando las etiquetas de datos correspondientes
 }
 \description{
+Utiliza las etiquetas de datos de una variable
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
