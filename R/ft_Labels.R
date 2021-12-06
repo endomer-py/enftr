@@ -1,3 +1,21 @@
+#' Navegar el diccionario de la base de datos
+#' `r lifecycle::badge('experimental')`
+#'
+#' @param dict [list] diccionario de la base de datos
+#'
+#' @return widget html interactivo con el diccionario de la encuesta
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' ft_browse_dict()
+#' }
+ft_browse_dict <- function(dict = enftr::dict, ...) {
+  labeler::browse_dict(dict, ...)
+}
+
+
+
 #' Asigna etiquetas de datos a las variables especificadas
 #' `r lifecycle::badge("experimental")`
 #' Vea \code{labeler::\link[labeler:set_labels]{set_labels}}
@@ -22,16 +40,16 @@
 #'   str(enft)
 #'   str(ft_set_labels(enft))
 #'}
-ft_set_labels <- function(tbl, vars = NULL) {
-  labeler::set_labels(tbl, vars, enftr::dict)
+ft_set_labels <- function(tbl, dict = enftr::dict, vars = NULL) {
+  labeler::set_labels(tbl, dict, vars = vars)
 }
 
 
 #' @rdname ft_set_labels
 #' @export
-ft_setLabels <- function(tbl, vars = NULL) {
+ft_setLabels <- function(tbl, dict = enftr::dict, vars = NULL) {
   lifecycle::deprecate_warn('0.1.0', 'ft_setLabels()', 'ft_set_labels()')
-  ft_set_labels(tbl, vars)
+  ft_set_labels(tbl, dict, vars)
 }
 
 
@@ -56,14 +74,14 @@ ft_setLabels <- function(tbl, vars = NULL) {
 #'   enft
 #'   ft_use_labels(enft)
 #'}
-ft_use_labels <- function(tbl, vars = NULL) {
-  labeler::use_labels(tbl, vars, enftr::dict)
+ft_use_labels <- function(tbl, dict = enftr::dict, vars = NULL) {
+  labeler::use_labels(tbl, dict, vars)
 }
 
 
 #' @rdname ft_use_labels
 #' @export
-ft_useLabels <- function(tbl, vars = NULL) {
+ft_useLabels <- function(tbl, dict = enftr::dict, vars = NULL) {
   lifecycle::deprecate_warn('0.1.0', 'ft_useLabels()', 'ft_use_labels()')
-  ft_use_labels(tbl, vars)
+  ft_use_labels(tbl, dict, vars = vars)
 }

@@ -1,6 +1,6 @@
 Package: enftr
 Title: Encuesta Nacional (Tradicional) De Fuerza de Trabajo (ENFT) en R
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: 
     person(given = "Daniel E.",
            family = "de la Rosa",
@@ -29,9 +29,11 @@ URL: https://github.com/endomer/enftr
 BugReports: https://github.com/endomer/enftr/issues
 RdMacros: lifecycle
 Suggests: 
+    testthat (>= 3.0.0),
     covr,
     knitr,
     rmarkdown
 Depends: 
     R (>= 2.10)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
