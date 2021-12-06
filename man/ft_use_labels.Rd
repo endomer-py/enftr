@@ -6,12 +6,14 @@
 \title{Utiliza las etiquetas de datos de una variable
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
-ft_use_labels(tbl, vars = NULL)
+ft_use_labels(tbl, dict = enftr::dict, vars = NULL)
 
-ft_useLabels(tbl, vars = NULL)
+ft_useLabels(tbl, dict = enftr::dict, vars = NULL)
 }
 \arguments{
 \item{tbl}{\link{data.frame}: Conexión a base de datos o dataframe con los datos}
+
+\item{dict}{\link{list}: Diccionario de la base de datos}
 
 \item{vars}{\link{character}: Si especificado, solo se asignaran las etiquetas a esas variables.}
 }

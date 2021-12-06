@@ -2,6 +2,7 @@
 #' `r lifecycle::badge('experimental')`
 #'
 #' @param dict [list] diccionario de la base de datos
+#' @param ... Otros argumentos pasados a \code{labeler::\link[labeler:browse_dict]{browse_dict}}
 #'
 #' @return widget html interactivo con el diccionario de la encuesta
 #' @export
@@ -21,6 +22,7 @@ ft_browse_dict <- function(dict = enftr::dict, ...) {
 #' Vea \code{labeler::\link[labeler:set_labels]{set_labels}}
 #'
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos
+#' @param dict [list]: Diccionario de la base de datos
 #' @param vars [character]: Si especificado, solo se asignaran las etiquetas a esas variables.
 #'
 #' @return Los datos introducidos en el argumento \code{tbl} pero con etiquetas de datos
@@ -59,6 +61,7 @@ ft_setLabels <- function(tbl, dict = enftr::dict, vars = NULL) {
 #'
 #' @param tbl [data.frame]: Conexión a base de datos o dataframe con los datos
 #' @param vars [character]: Si especificado, solo se asignaran las etiquetas a esas variables.
+#' @param dict [list]: Diccionario de la base de datos
 #'
 #' @return Los datos suministrados en el argumento \code{tbl}, pero en lugar de
 #'   valores utilizando las etiquetas de datos correspondientes
