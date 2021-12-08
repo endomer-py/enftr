@@ -73,7 +73,7 @@ Contribuyendo con el proyecto aceptas las términos y condiciones.
 
 <hr/>
 
-<a href="./articles/enftr.html"><button type="button"
+<a href="https://endomer.github.io/enftr/articles/enftr.html"><button type="button"
 style = "
     border: 1px solid transparent;
     background-color: #00a65a;
