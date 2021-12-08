@@ -50,14 +50,13 @@ remotes::install_github("endomer/enftr")
 
 ## Roadmap
 
-1. Completar el diccionario.
-
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE, results = 'asis'}
 source("data-raw/dict.R")
-Dmisc::progress_bar(length(dict), 357+length(dict1))
-rm(dict, dict0, dict1)
+progress <- length(dict) / (357+length(dict1))
+progress <- ceiling(progress*100)
 ```
 
+1. Completar el diccionario. ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/`r progress`)
 2. Agregar una función para calcular la pobreza monetaria.
 2. Agregar una función para el cálculo del ICV.
 2. Escribir la guía de inicio rápido.

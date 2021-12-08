@@ -1,11 +1,13 @@
 Package: enftr
 Title: Encuesta Nacional (Tradicional) De Fuerza de Trabajo (ENFT) en R
-Version: 0.4.2
+Version: 0.5.0
 Authors@R: 
-    person(given = "Daniel E.",
+    c(person(given = "Daniel E.",
            family = "de la Rosa",
            role = c("aut", "cre"),
-           email = "drdsdaniel@gmail.com")
+           email = "drdsdaniel@gmail.com"),
+    person(given = "Adatar",
+           role = "cph"))
 Description: Contiene funciones útiles para trabajar con la Encuesta Nacional (tradicional)
     de Fuerza de Trabajo (ENFT) en R, como las etiquetas de datos y cálculos adicionales
     como el de pobreza o ICV, entre muchos más.
@@ -13,7 +15,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2.9000
+RoxygenNote: 7.1.2
 Imports: 
     dplyr,
     stringr,
