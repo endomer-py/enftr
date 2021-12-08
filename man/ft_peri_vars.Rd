@@ -54,6 +54,8 @@ facilidad de manipulación. Además de que se hace consistete para todo el
 período analizado.
 }
 \examples{
-(enft <- data.frame(EFT_PERIODO = "1/2016"))
-ft_peri_vars(enft)
+\dontrun{
+  (enft <- data.frame(EFT_PERIODO = "1/2016"))
+  ft_peri_vars(enft)
+}
 }
