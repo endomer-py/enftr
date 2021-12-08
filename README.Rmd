@@ -78,7 +78,7 @@ Por favor, observa que el proyecto `enftr` está sujeto a un [Código del contri
 <hr/>
 
 ```{r echo=FALSE}
-Dmisc::big_button("Guía de inicio rápido", "./articles/enftr.html")
+Dmisc::big_button("Guía de inicio rápido", "https://endomer.github.io/enftr/articles/enftr.html")
 ```
 
 

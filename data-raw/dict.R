@@ -82,6 +82,10 @@ dict0 <- list(
   EFT_OCUPACION_PRINC = list(
     lab = "¿Cuál es el oficio u ocupación principal que realiza o realizó en su último trabajo?"
   ),
+  EFT_SEXO = list(
+    lab = "Sexo de la persona",
+    labs = c("Hombre" = 1, "Mujer" = 2)
+  ),
   EFT_TIENE_COND_JORNADA = list(
     lab = "¿La semana pasada habría tenido el tiempo y las condiciones necesarias para salir a trabajar?",
     labs = c("Sí" = 1, "No" = 2)
