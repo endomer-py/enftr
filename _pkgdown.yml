@@ -19,6 +19,7 @@ reference:
     - ft_peri_vars
     - ft_db_connect
     - ft_version
+    - enft
 
 - title: Demográficas
   desc: Funciones útiles para el procesamiento de datos demográficos
