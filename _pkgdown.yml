@@ -1,3 +1,9 @@
+template:
+  bootstrap: 5
+  bootswatch: minty
+
+lang: es
+
 reference:
 - title: Etiquetas de datos
   desc: Funciones útiles para utilizar etiquetas con los datos de la encuesta
@@ -18,6 +24,8 @@ reference:
   desc: Funciones útiles para el procesamiento de datos demográficos
   contents:
     - ft_zona
+    - ft_regiones_desarrollo
+    - ft_zona_desarrollo_fronterizo
 
 - title: Mercado Laboral
   desc: Funciones útiles para el procesamiento de indicadores de mercado laboral en la encuesta

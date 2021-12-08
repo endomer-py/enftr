@@ -29,11 +29,8 @@ de la República Dominicana.
 enftr aun no está en CRAN.
 
 <!-- You can install the released version of encftr from [CRAN](https://CRAN.R-project.org) with: -->
-
 <!-- ``` r -->
-
 <!-- install.packages("encftr") -->
-
 <!-- ``` -->
 
 Pero puedes intalar la versión de desarrollo desde
@@ -52,33 +49,7 @@ remotes::install_github("endomer/enftr")
 ## Roadmap
 
 1.  Completar el diccionario.
-
-<div style="display:inline-block;
-                 vertical-align:baseline;
-                 width:100%;
-                 height:20px;
-                 margin-bottom:20px;
-                 overflow:hidden;
-                 background-color:#f5f5f5;
-                 border-radius:4px;
-                 -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);
-                 box-shadow:inset 0 1px 2px rgba(0,0,0,.1);">
-
-    <div style="float: left;
-    height: 100%;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fff;
-    text-align: center;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
-    transition: width .6s ease;
-    background-color: #d9534f;  width: 10.8%;">
-
-      10.8%
-
-    </div>
-      </div>
-
+    ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/13)
 2.  Agregar una función para calcular la pobreza monetaria.
 3.  Agregar una función para el cálculo del ICV.
 4.  Escribir la guía de inicio rápido.
@@ -101,7 +72,6 @@ contribuyente](https://contributor-covenant.org/es/version/2/0/CODE_OF_CONDUCT.h
 Contribuyendo con el proyecto aceptas las términos y condiciones.
 
 <hr/>
-
 
 <a href="./articles/enftr.html"><button type="button"
 style = "

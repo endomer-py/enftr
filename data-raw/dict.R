@@ -35,6 +35,22 @@ dict0 <- list(
   EFT_EDAD = list(
     lab = "Edad de la persona"
   ),
+  EFT_PROVINCIA = list(
+    lab = "Provincia",
+    labs = c(
+      "Distrito Nacional" = 1, "Azua" = 2, "Bahoruco" = 3, "Barahona" = 4,
+      "Dajabón" = 5, "Duarte" = 6, "Elías Piña" = 7,
+      "El Seibo" = 8, "Espaillat" = 9, "Independencia" = 10,
+      "La Altagracia" = 11, "La Romana" = 12, "La Vega" = 13,
+      "María Trinidad Sánchez" = 14, "Monte Cristi" = 15,
+      "Pedernales" = 16, "Peravia" = 17, "Puerto Plata" = 18, "Salcedo" = 19,
+      "Samaná" = 20, "San Cristóbal" = 21, "San Juan" = 22,
+      "San Pedro de Macorís" = 23, "Sánchez Ramírez" = 24,
+      "Santiago" = 25, "Santiago Rodríguez" = 26, "Valverde" = 27,
+      "Monseñor Nouel" = 28, "Monte Plata" = 29, "Hato Mayor" = 30,
+      "San José de Ocoa" = 31, "Santo Domingo" = 32
+    )
+  ),
   EFT_TRABAJO_SEM_ANT = list(
     lab = "¿Trabajó o realizó una actividad económica por lo menos una hora la semana pasada?",
     labs = c("Sí" = 1, "No" = 2)
@@ -75,20 +91,8 @@ dict0 <- list(
     labs = c("Sí" = 1, "No" = 2)
   ),
   S1B_P2 = list(
-    lab = "Provincia",
-    labs = c(
-      "Distrito Nacional" = 1, "Azua" = 2, "Bahoruco" = 3, "Barahona" = 4,
-      "Dajabón" = 5, "Duarte" = 6, "Elías Piña" = 7,
-      "El Seibo" = 8, "Espaillat" = 9, "Independencia" = 10,
-      "La Altagracia" = 11, "La Romana" = 12, "La Vega" = 13,
-      "María Trinidad Sánchez" = 14, "Monte Cristi" = 15,
-      "Pedernales" = 16, "Peravia" = 17, "Puerto Plata" = 18, "Salcedo" = 19,
-      "Samaná" = 20, "San Cristóbal" = 21, "San Juan" = 22,
-      "San Pedro de Macorís" = 23, "Sánchez Ramírez" = 24,
-      "Santiago" = 25, "Santiago Rodríguez" = 26, "Valverde" = 27,
-      "Monseñor Nouel" = 28, "Monte Plata" = 29, "Hato Mayor" = 30,
-      "San José de Ocoa" = 31, "Santo Domingo" = 32
-    )
+    lab = "link::EFT_PROVINCIA",
+    labs = "link::EFT_PROVINCIA"
   ),
   S1B_P4 = list(
     lab = "Zona de residencia",
@@ -159,6 +163,9 @@ dict0 <- list(
 
 
 dict1 <- list(
+  ano = list(
+    lab = "Año (YYYY)"
+  ),
   desempleo_abierto = list(
     lab = "Población en condiciones de desempleo abierto",
     labs = c("Sí" = 1, "No" = 0)
@@ -198,15 +205,16 @@ dict1 <- list(
       "Población sin Grupo Ocupacional" = 10
     )
   ),
-  sector_ocupacion = list(
-    lab = "Sector de la ocupación",
-    labs = c("Formal" = 1, "Informal" = 0)
+  horas_semanal = list(
+    lab = "Horas trabajadas a la semana",
+    labs = c("Sí" = 1, "No" = 0)
+  ),
+  ingreso_laboral_mensual = list(
+    lab = "Ingreso laboral mensual de la población ocupada perceptora de ingresos"
   ),
   ocupado = list(
     lab = "Población ocupada",
-    labs = c(
-      "Sí" = 1, "No" = 0
-    )
+    labs = c("Sí" = 1, "No" = 0)
   ),
   pea_abierta = list(
     lab = "Población Económicamente Activa (PEA) abierta",
@@ -216,6 +224,13 @@ dict1 <- list(
     lab = "Población Económicamente Activa (PEA) ampliada",
     labs = c("Sí" = 1, "No" = 0)
   ),
+  perceptores_ingresos = list(
+    lab = "Población ocupada perceptora de ingresos",
+    labs = c("Sí" = 1, "No" = 0)
+  ),
+  periodo = list(
+    lab = "Periodo (YYYYS)"
+  ),
   pet = list(
     lab = "Población en edad de trabajar",
     labs = c("Sí" = 1, "No" = 0)
@@ -224,9 +239,38 @@ dict1 <- list(
     lab = "Población inactiva",
     labs = c("Sí" = 1, "No" = 0)
   ),
+  regiones_desarrollo = list(
+    lab = "Regiones de desarrollo",
+    labs = c(
+      "Cibao Norte" = 1, 
+      "Cibao Sur" = 2, 
+      "Cibao Nordeste" = 3, 
+      "Cibao Noroeste" = 4, 
+      "Valdesia" = 5, 
+      "Enriquillo" = 6, 
+      "El Valle" = 7, 
+      "Yuma" = 8, 
+      "Higuamo" = 9, 
+      "Ozama o Metropolitana" = 10
+    )
+  ),
+  sector_ocupacion = list(
+    lab = "Sector de la ocupación",
+    labs = c("Formal" = 1, "Informal" = 0)
+  ),
+  semestre = list(
+    lab = "Semestre en el año (S)"
+  ),
   zona = list(
     lab = "Zona de residencia",
     labs = c("Zona urbana" = 1, "Zona rural" = 2)
+  ),
+  zona_desarrollo_fronterizo = list(
+    lab = "Zona de desarrollo fronterizo",
+    labs = c(
+      "Zona de desarrollo fronterizo" = 1,
+      "Resto país" = 0
+    )
   )
 )
 

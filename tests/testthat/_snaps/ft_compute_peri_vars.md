@@ -43,7 +43,7 @@
       ft_compute_ano(enft)
     Warning <lifecycle_warning_deprecated>
       `ft_compute_ano()` was deprecated in enftr 0.3.0.
-      Please use `ft_compute_peri_vars()` instead.
+      Please use `ft_peri_vars()` instead.
     Output
         EFT_PERIODO  ano
       1      1/2016 2016
@@ -54,8 +54,8 @@
     Code
       ft_ano(enft)
     Warning <lifecycle_warning_deprecated>
-      `ft_compute_ano()` was deprecated in enftr 0.3.0.
-      Please use `ft_compute_peri_vars()` instead.
+      `ft_ano()` was deprecated in enftr 0.3.0.
+      Please use `ft_peri_vars()` instead.
     Output
         EFT_PERIODO  ano
       1      1/2016 2016
